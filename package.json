@@ -1,6 +1,7 @@
 {
   "name": "video-gen-ai",
   "version": "0.1.0",
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,7 +16,8 @@
     "next": "^15.5.0",
     "openai": "^5.15.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@types/react": "19.1.11",
