@@ -1,7 +1,7 @@
 // scripts/testImages.ts
-
 import dotenv from "dotenv";
-dotenv.config();
+const result = dotenv.config();
+
 import { generateStoryFromText } from "../lib/generateStoryFromText.ts";
 import { generateImagesFromStory } from "../lib/generateImagesFromStory.ts";
 
